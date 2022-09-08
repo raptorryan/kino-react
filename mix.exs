@@ -5,7 +5,7 @@ defmodule Terminal.MixProject do
     [
       app: :terminal,
       version: "0.1.0",
-      elixir: "~> 1.13",
+      elixir: "1.14.0-rc.0",
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
@@ -24,7 +24,7 @@ defmodule Terminal.MixProject do
   end
 
   defp description do
-    "Elixir Terminal UIs with Reactish API."
+    "Elixir Kino UIs with Reactish API."
   end
 
   defp package do
