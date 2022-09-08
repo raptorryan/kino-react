@@ -3,7 +3,7 @@ defmodule Terminal.MixProject do
 
   def project do
     [
-      app: :terminal,
+      app: :kino_react,
       version: "0.1.0",
       elixir: "1.14.0",
       start_permanent: Mix.env() == :prod,
@@ -29,11 +29,11 @@ defmodule Terminal.MixProject do
 
   defp package do
     [
-      name: :terminal,
+      name: :kino_react,
       files: ["lib", "test", "mix.*", "*.exs", "*.md", ".gitignore", "LICENSE"],
       maintainers: ["Samuel Ventura"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/samuelventura/terminal/"}
+      links: %{"GitHub" => "https://github.com/raptorryan/kino-react/"}
     ]
   end
 end
