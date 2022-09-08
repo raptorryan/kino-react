@@ -5,7 +5,7 @@ defmodule Terminal.MixProject do
     [
       app: :terminal,
       version: "0.1.0",
-      elixir: "1.14.0-rc.0",
+      elixir: "1.14.0",
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
